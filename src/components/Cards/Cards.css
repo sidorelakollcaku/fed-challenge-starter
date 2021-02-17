@@ -1,0 +1,11 @@
+.container {
+  width: 85%;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+  background-color: white;
+}
+.container-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
